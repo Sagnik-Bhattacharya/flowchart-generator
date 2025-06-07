@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+🧩 Flowchart Generator
+A drag-and-drop flowchart builder built with Next.js, React Flow, TailwindCSS, and Zustand. Quickly prototype flowcharts using shapes like squares, rectangles, circles, ovals, and rhombuses — and connect them with animated edges.
 
-First, run the development server:
+🚀 100% free, open-source, and works entirely without a backend — everything is stored in your browser.
 
-```bash
+🌐 Live Demo
+<!-- replace with actual URL -->
+
+✨ Features
+📦 Drag & Drop Shapes – Add squares, rectangles, circles, ovals, and rhombuses.
+
+🔗 Connect Shapes with Edges – Create visual logic flows easily.
+
+💾 State Persistence – Auto-saves to browser localStorage.
+
+🎨 Change Colors – Customize node background and text color.
+
+✍️ Editable Labels – Click on nodes to rename them.
+
+🎛️ Zoom, Pan, Controls – Built-in canvas interactions via React Flow.
+
+🧠 Zustand for State – Lightweight and powerful store management.
+
+💻 No Backend Needed – Fully client-side.
+
+🧱 Tech Stack
+Next.js (App Router)
+
+React Flow – canvas & edge logic
+
+TailwindCSS – for styling
+
+Zustand – state management
+
+Framer Motion – optional animations
+
+html2canvas – optional export
+
+📦 Installation
+bash
+Copy
+Edit
+git clone https://github.com/Sagnik-Bhattacharya/flowchart-generator.git
+cd flowchart-generator
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🗂️ Project Structure
+bash
+Copy
+Edit
+/app
+  /flow              # Main flowchart page
+/components
+  Sidebar.jsx        # Shape list
+  FlowCanvas.jsx     # Flowchart canvas
+/lib
+  store.js           # Zustand store
+/public
+  ...                # Static assets
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+🚀 Roadmap
+ Export flowchart as image (PNG/SVG)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+ Add undo/redo support
 
-## Learn More
+ Save and load flowcharts from JSON
 
-To learn more about Next.js, take a look at the following resources:
+ Dark mode
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🙌 Contributing
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+👨‍💻 Author
+Built with ❤️ by Sagnik Bhattacharya
